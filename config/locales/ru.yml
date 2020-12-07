@@ -27,6 +27,7 @@ ru:
         password: Пароль
         password_confirmation: Пароль (повторно)
         admin: Администратор
+        avatar: Фото профиля
     errors:
       title: При сохранении произошли ошибки
   helpers:
@@ -53,7 +54,7 @@ ru:
     edit:
       btn: Редактировать
       title: Редактирование пользователя
-    update:  
+    update:
       success: Пользователь изменён
     destroy:
       btn: Удалить
@@ -102,6 +103,7 @@ ru:
     destroy:
       btn: Удалить
       success: Комментарий удалён
+      failure: Не удалось удалить комментарий
   views:
     pagination:
       first: ⇤

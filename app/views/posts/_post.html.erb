@@ -4,6 +4,8 @@
       <%= post.title %>
     </h4>
     <h6 class="card-subtitle mb-2">
+      <%= image_tag post.user.avatar.variant(resize_to_limit: [32, 32]), alt: post.user.login%>
+
       <%=link_to post.user.name, post.user, class: 'text-muted' %>
     </h6>
 
